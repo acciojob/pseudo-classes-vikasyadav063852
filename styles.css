@@ -2,14 +2,14 @@
 :root{
 	background-color:rgb(135,206,235)
 }
-div p:first-child{
+article p:first-child{
 	background-color:black;
 	color:white;
 }
-div p:nth-child(2){
+article p:nth-child(2){
 	color:black;
 }
-div p:last-child{
+article p:last-child{
 	color:red;
 }
 ul li{
@@ -23,7 +23,6 @@ ul li:first-child,ul li:last-child{
 ul li:nth-child(odd){
 	background-color:white;	
 }
-
 ul li:nth-child(3){
 	background-color:pink
 }
